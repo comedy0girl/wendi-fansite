@@ -1,0 +1,124 @@
+/*
+Theme Name: wendi blue and grey
+Author: Ashley Miller
+*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+@import url(css/normalize.css);
+@import url(css/skeleton.css);
+
+body{
+	background-color: #ebe9e9;
+}
+
+.nav-bar{
+	/**background: #27bdaa; **/
+	background-color: #ebe9e9;
+	margin-top: 0%;
+	text-align: center;
+}
+
+.nav-bar li{
+	padding: 2%;
+	font-size: 2rem;
+	display: inline;
+}
+
+.logo {
+	verticle-align: middle;
+	max-width: 100%;
+}
+
+.news-container {
+	max-width: 95%;
+	margin-left: auto;
+}
+
+.welcome-image{
+	max-width: 100%;
+}
+
+.welcome-greeting {
+	background-color: #f4f3f3;
+}
+
+.welcome-greeting p {
+	padding: 4.9em;
+	text-align: center;
+	max-height: 100%;
+}
+
+@media (max-width: 1024px){
+	.welcome-greeting p{
+		padding: 1.5em;
+	}		
+}
+
+/** @media (min-width: 1024px){
+	.welcome-greeting p{
+		padding: 1.5em;
+	}		
+} **/
+
+.wendi-social {
+	text-align: center;
+	background-color: #d7d7d7;
+	padding: 0.3em;
+}
+@media (max-width: 320px) {
+	.wendi-social {
+		font-size: 0.8em;
+	}
+}
+
+.wendi-social .fa {
+	padding-left: 0.5em;
+	font-size: 2em;
+}
+
+.follow-wendi li {
+	display: inline;
+	float: left;
+	padding-left: 0.3em;
+}
+
+.twitter-timeline {
+	background: #27bdaa;
+	padding: 0.8em;
+}
+
+.content-post{
+	background-color: #ebe9e9;
+	float: left;
+	max-height: 379px;
+	overflow:hidden;
+}
+
+.content-post h2{
+	background-color: #d7d7d7;
+	padding: 0.3em;
+}
+
+.content-post p{
+	padding: 0.3em;
+	text-align: center;
+}
+
+.wendi-instagram {
+	background-color: #27bdaa;
+	max-height: 138px;
+}
+
+.wendi-instagram  > h4{
+	color: white;
+	padding: 0.4em;
+}
+
+
+
+
+

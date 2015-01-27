@@ -1,0 +1,16 @@
+<div class="container">
+    <div class="row">
+		<div class=" eleven columns">
+			<div class="nav-bar">
+				<ul>	
+					<li>Home</li>
+					<li>Bio</li>
+					<li>Gallery</li>
+					<li><img class="site-name" src="<?php bloginfo('template_url') ?>/images/title-bg.png"><h3>Wendi</br>McLendon-Covey</h3></li>
+					<li>Press</li>
+					<li>Media</li>
+					<li>Contact</li>
+				</ul>
+			</div>
+		</div>
+	</div><!-- row for nav bar ends -->

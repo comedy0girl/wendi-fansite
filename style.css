@@ -1,0 +1,221 @@
+/*
+Theme Name: wendi blue and grey
+Author: Ashley Miller
+*/
+
+
+@import url(css/normalize.css);
+@import url(css/skeleton.css);
+
+/*** wordpress text wrap code ***/
+img.alignright {float:right; margin:0 0 1em 1em}
+img.alignleft {float:left; margin:0 1em 1em 0}
+img.aligncenter {display: block; margin-left: auto; margin-right: auto}
+.alignright {float:right; }
+.alignleft {float:left; }
+.aligncenter {display: block; margin-left: auto; margin-right: auto}
+
+/*** body ***/
+img {max-width: 100%; height: auto;}
+.clear { clear: both; }
+body{ background-color: #ebe9e9; }
+body a { text-decoration: none; }
+.container { max-width: 95%; margin: 0 auto; }
+.first {font-weight: bold;}
+
+/** main navigation **/
+.nav-bar{ text-align: center; margin-bottom: -2em; }
+.nav-bar li{ padding: 1%; font-size: 2rem; display: inline; }
+
+.site-logo {display: inline-block;}
+.site-logo img{postion: relative; max-height: 4em;}
+.site-name { display: inline; z-index: 1000;}
+
+
+	@media (max-width: 640px) {
+		.nav-bar li {font-size: 1.5rem;}
+		.nav-bar h3 {font-size: 0em;}
+	}
+
+/** welcome greeting and image **/
+.logo { verticle-align: middle; max-width: 100%;}
+.welcome-image{ max-width: 100%; }
+.welcome-greeting { background-color: #f4f3f3; }
+.welcome-greeting p { padding: 4.5em; text-align: left; max-height: 100%; }
+.first-name{font-size: 2em; float: left; margin-top: -0.5em;}
+.last-name{font-size: 2em; font-weight: bold; float: left; margin-top: 0.5em;}
+.triangle-left { width: 0; height: 0; border-top: 50px solid transparent; border-right: 100px solid red; border-bottom: 50px solid transparent; }
+
+	@media (max-width: 1280px) {
+		.welcome-greeting p {padding: 5.3em;}
+	}
+
+	@media (max-width: 1024px){
+		.welcome-greeting p{ padding: 2.1em;}
+	} 
+
+/** font awesome and social media bar **/
+.wendi-social .fa { padding-left: 0.5em; font-size: 2em;}
+.follow-wendi li { display: inline; float: left; padding-left: 0.3em; }
+.wendi-social { text-align: center; background-color: #d7d7d7; padding: 1em; }
+.wendi-social a{color: #90A3B7; }
+.wendi-social a:hover{color: #fff;}
+
+	@media (max-width: 320px) {
+		.wendi-social .fa {font-size: 1.5em;}
+	} 
+
+	@media (max-width: 1280px) {
+		.wendi-social {padding: 0.5em;}
+	} 
+
+	@media (max-width: 1024px){
+		.wendi-social {padding: 0.4em;}
+	} 
+
+/** posts **/
+.content-post{ background-color: #ebe9e9; margin-top: -1.3em; float: left; overflow: hidden;}
+.cal-date { background-color: #d7d7d7; padding-left: 0.2em; color: black;}
+.post-wrapper  img{ margin-top: 0; overflow: hidden; max-height: 168px;}
+.post-wrapper { background-color: #f4f3f3; max-height: 500px; overflow: hidden;}
+.post-wrapper h5{ background: #90A3B7; padding: 0.3em; font-size: 2rem;margin-bottom: -3px; }
+.post-wrapper a{ color: #000;}
+.post-wrapper p{padding: 0 0.5em;}
+
+	@media (min-width: 960px) {
+		.post-wrapper { float: left; max-width: 50%;}
+	}
+
+	@media (max-width: 640px){
+		.post-wrapper{ float: left; margin: left; width: 100%;}
+	}
+
+/** post navi stuff **/
+.post-nav{background: #fff;}
+
+
+/** single posts wrapper **/
+.single-post-wrapper{background-color: #f4f3f3; padding-bottom: 0.2em; float: left;}
+.single-post-wrapper h5{ background: #90A3B7; padding: 0.3em; margin-bottom: -3px; }
+.single-post-wrapper a{ color: #000;}
+.single-post-wrapper p{padding: 0 0.5em;}
+.single-post-wrapper img {max-width:100%; height: auto; }
+.recentnews-feed {padding-left: 1em; background: #fff;}
+.recentnews-feed h2 {background: #90A3B7; }
+.recentnews-feed li {list-style: none;}
+
+/** social media sharing **/
+.wpfai-list {text-align: center;}
+
+/** instagram feeds **/
+.instagram-feed { float: left; padding-top: 0.5em;}
+
+/*** twitter feed **/
+/**.inline_tweets_ul {list-style: none;}
+
+ blockquote:before {
+  color: #000;
+  content: "\22";
+  font-size: 8em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+  font-family: times;
+}**/
+
+blockquote#one {
+ width: 250px;
+background: #e3e3e3;
+padding: 25px;
+position: relative;
+}
+ 
+#one .arrow {
+ width: 0;
+ height: 0;
+ line-height: 0;
+ border-top: 30px solid #e3e3e3;
+ border-left: 60px solid white;
+ border-right: 10px solid white;
+ position: absolute;
+ bottom: -30px;
+ right: 30px;
+}
+
+/** our friends and links **/
+.our-friends { background: #d7d7d7;}
+.our-friends li{ list-style: none; display: block;}
+.our-friends ul { padding: 0 0 1em 2em;}
+.our-friends h5 {padding: 0 0.5em;background: #90A3B7;}
+
+.fan-spot {background: #d7d7d7;}
+.fan-spot li{ list-style: none; display: block;}
+.fan-spot ul { padding: 0 0 1em 2em;}
+.fan-spot h5 {padding: 0 0.5em;background: #90A3B7;}
+
+.official-links { background: #d7d7d7;}
+.official-links li{ list-style: none; display: block;}
+.official-links ul { padding: 0 0 1em 2em;}
+.official-links h5 {padding: 0 0.5em;background: #90A3B7;}
+
+.wendi-links {background: #d7d7d7;}
+.wendi-links li{ list-style: none; display: block;}
+.wendi-links ul { padding: 0 0 1em 2em;}
+.wendi-links h5 {padding: 0 0.5em;background: #90A3B7;}
+
+.links-friends {margin-top: 1em;}
+.links-friends p{padding:0 1em; margin-top: -1.5em;background: #90A3B7;}
+
+/** footer **/
+.copyright{margin-top: -1.7em;}
+.copyright p{text-align: center; background: #90A3B7; padding: 1em;}
+.listings p {text-align: center;}
+.footer-nav {background-color: #f4f3f3; text-align: center; margin-top: -1.6em;}
+.footer-nav li {display: inline; padding: 1em;}
+
+/*** Biography ***/
+.bio {verticle-align: middle; max-width: 100%;}
+.bio-container {background: #F4F3F3; padding: 4em;}
+.bio-image {max-width: 100%;}
+blockquote {width: 20em; font-family: 'PT Mono', ;}
+blockquote:before {color: #d7d7d7; content: "\22"; font-size: 8em; line-height: 0.1em; vertical-align: -0.4em; 
+font-family: Book Antiqua,Palatino,Palatino Linotype,Palatino LT STD,Georgia,serif;}
+h7 {font-family: 'Pacifico', cursive; font-size: 1.3em;}
+
+
+/*** Articles ***/
+.articles, .single-article-container{background: #F4F3F3; padding: 1em;}
+.articles-container li {list-style:none;}
+.articles-container ul { display: inline-block;} 
+.year {padding: 1em;}
+.year > h3 {background: #fff; padding-left: 0.5em;}
+.year li {list-style: none;}
+.articles-main{background: #F4F3F3; overflow: auto;}
+
+/*** Contact ***/
+.contact-container {background: #F4F3F3; padding: 1em;}
+.contact-form {margin: 0 auto;}
+.wpcf7 {max-width: 100%;}
+
+/****** GALLERY ****/
+.gallery-nav li {list-style: none; padding-left: 0.5em; font-size: 1.2em;}
+.first{font-weight: bold;}
+.images-container {background: #F4F3F3; padding: 1em; overflow: auto;}
+.content {float: left;}
+.gallery-item {display: inline-block; margin: 2px; text-align: center; border-radius: 50%;}
+.gallery-nav li {text-align: right; }
+.attachment-thumbnail {/*border-radius: 30%; */border-left: 50px transparent; opacity: 0.7;}
+.attachment-thumbnail:hover {opacity: 1.0;} 
+
+.gallery-top li {display: inline; list-style: none; padding: 0.2em; text-align: center;}
+.gallery-top {background: #d7d7d7; }
+
+
+
+
+
+
+
+
+
+
